@@ -4,420 +4,420 @@
 #Google (Maps, Youtube, etc)
 
 #Google Maps and other Google Services
-0.0.0.0 clients4.google.com
-0.0.0.0 clients2.google.com
+clients4.google.com
+clients2.google.com
 
 #Youtube History
-0.0.0.0 s.youtube.com 
-0.0.0.0 video-stats.l.google.com
+s.youtube.com 
+video-stats.l.google.com
 
 #Youtube App for iOS/iPadOS
-0.0.0.0 www.googleapis.com 
-0.0.0.0 youtubei.googleapis.com
-0.0.0.0 oauthaccountmanager.googleapis.com
+www.googleapis.com 
+youtubei.googleapis.com
+oauthaccountmanager.googleapis.com
 
 #Google Play
-0.0.0.0 android.clients.google.com
+android.clients.google.com
 
 #Google Keep
-0.0.0.0 reminders-pa.googleapis.com
-0.0.0.0 firestore.googleapis.com
+reminders-pa.googleapis.com
+firestore.googleapis.com
 
 #Google Fonts
-0.0.0.0 gstaticadssl.l.google.com
+gstaticadssl.l.google.com
 
 #Gmail
-0.0.0.0 googleapis.l.google.com
+googleapis.l.google.com
 
 #Google Chrome(to update on ubuntu)
-0.0.0.0 dl.google.com
+dl.google.com
 
 #Android TV
-0.0.0.0 redirector.gvt1.com
+redirector.gvt1.com
 
 
 #Microsoft (Windows, Office, Skype, etc)
 
 #Windows uses this to verify connectivity to Internet
-0.0.0.0 www.msftncsi.com 
-0.0.0.0 www.msftconnecttest.com
+www.msftncsi.com 
+www.msftconnecttest.com
 
 #Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com...)
-0.0.0.0 outlook.office365.com 
-0.0.0.0 products.office.com 
-0.0.0.0 c.s-microsoft.com 
-0.0.0.0 i.s-microsoft.com 
-0.0.0.0 login.live.com 
-0.0.0.0 login.microsoftonline.com 
+outlook.office365.com 
+products.office.com 
+c.s-microsoft.com 
+i.s-microsoft.com 
+login.live.com 
+login.microsoftonline.com 
 
 #Backup bitlocker recovery key to Microsoft account
-0.0.0.0 g.live.com
+g.live.com
 
 #Microsoft Store (Windows Store)
-0.0.0.0 dl.delivery.mp.microsoft.com 
-0.0.0.0 geo-prod.do.dsp.mp.microsoft.com 
-0.0.0.0 displaycatalog.mp.microsoft.com
+dl.delivery.mp.microsoft.com 
+geo-prod.do.dsp.mp.microsoft.com 
+displaycatalog.mp.microsoft.com
 
 #Windows 10 Update
-0.0.0.0 sls.update.microsoft.com.akadns.net 
-0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net 
-0.0.0.0 tlu.dl.delivery.mp.microsoft.com
+sls.update.microsoft.com.akadns.net 
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net 
+tlu.dl.delivery.mp.microsoft.com
 
 #Microsoft Edge Browser Update
-0.0.0.0 msedge.api.cdp.microsoft.com
+msedge.api.cdp.microsoft.com
 
 #Skype
-0.0.0.0 s.gateway.messenger.live.com 
-0.0.0.0 client-s.gateway.messenger.live.com 
-0.0.0.0 ui.skype.com pricelist.skype.com 
-0.0.0.0 apps.skype.com 
-0.0.0.0 m.hotmail.com 
-0.0.0.0 sa.symcb.com 
-0.0.0.0 s{1..5}.symcb.com 
+s.gateway.messenger.live.com 
+client-s.gateway.messenger.live.com 
+ui.skype.com pricelist.skype.com 
+apps.skype.com 
+m.hotmail.com 
+sa.symcb.com 
+s{1..5}.symcb.com 
 
 #Microsoft Office
-0.0.0.0 officeclient.microsoft.com
+officeclient.microsoft.com
 
 #Bing Maps Platform
-0.0.0.0 dev.virtualearth.net 
-0.0.0.0 ecn.dev.virtualearth.net 
-0.0.0.0 t0.ssl.ak.dynamic.tiles.virtualearth.net 
-0.0.0.0 t0.ssl.ak.tiles.virtualearth.net
+dev.virtualearth.net 
+ecn.dev.virtualearth.net 
+t0.ssl.ak.dynamic.tiles.virtualearth.net 
+t0.ssl.ak.tiles.virtualearth.net
 
 #Xbox
 
 #Xbox Live
-0.0.0.0 clientconfig.passport.net 
+clientconfig.passport.net 
 #Xbox Live Achievements (confirmed by Microsoft)
-0.0.0.0 v10.events.data.microsoft.com
-0.0.0.0 v20.events.data.microsoft.com
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
 
 #Xbox Live Messaging
-0.0.0.0 client-s.gateway.messenger.live.com
+client-s.gateway.messenger.live.com
 
 #Store App on Series X/S
-0.0.0.0 arc.msn.com
+arc.msn.com
 
 #EA Play on Xbox
-0.0.0.0 activity.windows.com
+activity.windows.com
 
 #Full Functionality
-0.0.0.0 xbox.ipv6.microsoft.com 
-0.0.0.0 device.auth.xboxlive.com 
-0.0.0.0 www.msftncsi.com 
-0.0.0.0 title.mgt.xboxlive.com 
-0.0.0.0 xsts.auth.xboxlive.com 
-0.0.0.0 title.auth.xboxlive.com 
-0.0.0.0 ctldl.windowsupdate.com 
-0.0.0.0 attestation.xboxlive.com 
-0.0.0.0 xboxexperiencesprod.experimentation.xboxlive.com 
-0.0.0.0 xflight.xboxlive.com 
-0.0.0.0 cert.mgt.xboxlive.com 
-0.0.0.0 xkms.xboxlive.com 
-0.0.0.0 def-vef.xboxlive.com 
-0.0.0.0 notify.xboxlive.com 
-0.0.0.0 help.ui.xboxlive.com 
-0.0.0.0 licensing.xboxlive.com 
-0.0.0.0 eds.xboxlive.com 
-0.0.0.0 www.xboxlive.com 
-0.0.0.0 v10.vortex-win.data.microsoft.com 
-0.0.0.0 settings-win.data.microsoft.com
+xbox.ipv6.microsoft.com 
+device.auth.xboxlive.com 
+www.msftncsi.com 
+title.mgt.xboxlive.com 
+xsts.auth.xboxlive.com 
+title.auth.xboxlive.com 
+ctldl.windowsupdate.com 
+attestation.xboxlive.com 
+xboxexperiencesprod.experimentation.xboxlive.com 
+xflight.xboxlive.com 
+cert.mgt.xboxlive.com 
+xkms.xboxlive.com 
+def-vef.xboxlive.com 
+notify.xboxlive.com 
+help.ui.xboxlive.com 
+licensing.xboxlive.com 
+eds.xboxlive.com 
+www.xboxlive.com 
+v10.vortex-win.data.microsoft.com 
+settings-win.data.microsoft.com
 
 #Apple
 
 #Apple Music
-0.0.0.0 itunes.apple.com
-0.0.0.0 s.mzstatic.com
+itunes.apple.com
+s.mzstatic.com
 
 #Apple ID
-0.0.0.0 appleid.apple.com
+appleid.apple.com
 
 #iOS Weather App
-0.0.0.0 gsp-ssl.ls.apple.com
-0.0.0.0 gsp-ssl.ls-apple.com.akadns.net
+gsp-ssl.ls.apple.com
+gsp-ssl.ls-apple.com.akadns.net
 
 
 #Captive Portal Tests
 
 #Android/Chrome
-0.0.0.0 connectivitycheck.android.com 
-0.0.0.0 android.clients.google.com 
-0.0.0.0 clients3.google.com 
-0.0.0.0 connectivitycheck.gstatic.com 
+connectivitycheck.android.com 
+android.clients.google.com 
+clients3.google.com 
+connectivitycheck.gstatic.com 
 
 #Windows/Microsoft
-0.0.0.0 msftncsi.com 
-0.0.0.0 www.msftncsi.com 
-0.0.0.0 ipv6.msftncsi.com
+msftncsi.com 
+www.msftncsi.com 
+ipv6.msftncsi.com
 
 #iOS/Apple
-0.0.0.0 captive.apple.com 
-0.0.0.0 gsp1.apple.com 
-0.0.0.0 www.apple.com 
-0.0.0.0 www.appleiphonecell.com
+captive.apple.com 
+gsp1.apple.com 
+www.apple.com 
+www.appleiphonecell.com
 
 
 #Other Domains
 
 #Spotify
 #for iOS
-0.0.0.0 spclient.wg.spotify.com 
-0.0.0.0 apresolve.spotify.com
+spclient.wg.spotify.com 
+apresolve.spotify.com
 #for tv apps
-0.0.0.0 api-tv.spotify.com
+api-tv.spotify.com
 
 #Target Weekly Ads
-0.0.0.0 weeklyad.target.com 
-0.0.0.0 m.weeklyad.target.com 
-0.0.0.0 weeklyad.target.com.edgesuite.net
+weeklyad.target.com 
+m.weeklyad.target.com 
+weeklyad.target.com.edgesuite.net
 
 #Facebook/Facebook Messenger
-0.0.0.0 upload.facebook.com 
-0.0.0.0 creative.ak.fbcdn.net 
-0.0.0.0 external-lhr0-1.xx.fbcdn.net 
-0.0.0.0 external-lhr1-1.xx.fbcdn.net 
-0.0.0.0 external-lhr10-1.xx.fbcdn.net 
-0.0.0.0 external-lhr2-1.xx.fbcdn.net 
-0.0.0.0 external-lhr3-1.xx.fbcdn.net 
-0.0.0.0 external-lhr4-1.xx.fbcdn.net 
-0.0.0.0 external-lhr5-1.xx.fbcdn.net 
-0.0.0.0 external-lhr6-1.xx.fbcdn.net 
-0.0.0.0 external-lhr7-1.xx.fbcdn.net 
-0.0.0.0 external-lhr8-1.xx.fbcdn.net 
-0.0.0.0 external-lhr9-1.xx.fbcdn.net 
-0.0.0.0 fbcdn-creative-a.akamaihd.net 
-0.0.0.0 scontent-lhr3-1.xx.fbcdn.net 
-0.0.0.0 scontent.xx.fbcdn.net 
-0.0.0.0 scontent.fgdl5-1.fna.fbcdn.net 
-0.0.0.0 graph.facebook.com 
-0.0.0.0 b-graph.facebook.com 
-0.0.0.0 connect.facebook.com 
-0.0.0.0 cdn.fbsbx.com 
-0.0.0.0 api.facebook.com 
-0.0.0.0 edge-mqtt.facebook.com 
-0.0.0.0 mqtt.c10r.facebook.com 
-0.0.0.0 portal.fb.com 
-0.0.0.0 star.c10r.facebook.com 
-0.0.0.0 star-mini.c10r.facebook.com 
-0.0.0.0 b-api.facebook.com 
-0.0.0.0 fb.me 
-0.0.0.0 bigzipfiles.facebook.com 
-0.0.0.0 l.facebook.com 
-0.0.0.0 www.facebook.com 
-0.0.0.0 scontent-atl3-1.xx.fbcdn.net 
-0.0.0.0 static.xx.fbcdn.net 
-0.0.0.0 edge-chat.messenger.com 
-0.0.0.0 video.xx.fbcdn.net 
-0.0.0.0 external-ort2-1.xx.fbcdn.net 
-0.0.0.0 scontent-ort2-1.xx.fbcdn.net 
-0.0.0.0 edge-chat.facebook.com 
-0.0.0.0 scontent-mia3-1.xx.fbcdn.net
-0.0.0.0 web.facebook.com 
-0.0.0.0 rupload.facebook.com 
-0.0.0.0 l.messenger.com
+upload.facebook.com 
+creative.ak.fbcdn.net 
+external-lhr0-1.xx.fbcdn.net 
+external-lhr1-1.xx.fbcdn.net 
+external-lhr10-1.xx.fbcdn.net 
+external-lhr2-1.xx.fbcdn.net 
+external-lhr3-1.xx.fbcdn.net 
+external-lhr4-1.xx.fbcdn.net 
+external-lhr5-1.xx.fbcdn.net 
+external-lhr6-1.xx.fbcdn.net 
+external-lhr7-1.xx.fbcdn.net 
+external-lhr8-1.xx.fbcdn.net 
+external-lhr9-1.xx.fbcdn.net 
+fbcdn-creative-a.akamaihd.net 
+scontent-lhr3-1.xx.fbcdn.net 
+scontent.xx.fbcdn.net 
+scontent.fgdl5-1.fna.fbcdn.net 
+graph.facebook.com 
+b-graph.facebook.com 
+connect.facebook.com 
+cdn.fbsbx.com 
+api.facebook.com 
+edge-mqtt.facebook.com 
+mqtt.c10r.facebook.com 
+portal.fb.com 
+star.c10r.facebook.com 
+star-mini.c10r.facebook.com 
+b-api.facebook.com 
+fb.me 
+bigzipfiles.facebook.com 
+l.facebook.com 
+www.facebook.com 
+scontent-atl3-1.xx.fbcdn.net 
+static.xx.fbcdn.net 
+edge-chat.messenger.com 
+video.xx.fbcdn.net 
+external-ort2-1.xx.fbcdn.net 
+scontent-ort2-1.xx.fbcdn.net 
+edge-chat.facebook.com 
+scontent-mia3-1.xx.fbcdn.net
+web.facebook.com 
+rupload.facebook.com 
+l.messenger.com
 
 #DirectTV
-0.0.0.0 directvnow.com 
-0.0.0.0 directvapplications.hb.omtrdc.net 
-0.0.0.0 s.zkcdn.net 
-0.0.0.0 js.maxmind.com
+directvnow.com 
+directvapplications.hb.omtrdc.net 
+s.zkcdn.net 
+js.maxmind.com
 
 #Bild DE
-0.0.0.0 www.asadcdn.com 
-0.0.0.0 code.bildstatic.de 
-0.0.0.0 de.ioam.de 
-0.0.0.0 json.bild.de 
-0.0.0.0 script.ioam.de 
-0.0.0.0 tags.tiqcdn.com 
-0.0.0.0 tagger.opecloud.com
+www.asadcdn.com 
+code.bildstatic.de 
+de.ioam.de 
+json.bild.de 
+script.ioam.de 
+tags.tiqcdn.com 
+tagger.opecloud.com
 
 #Plex Domains
-0.0.0.0 plex.tv 
-0.0.0.0 tvdb2.plex.tv 
-0.0.0.0 pubsub.plex.bz 
-0.0.0.0 proxy.plex.bz 
-0.0.0.0 proxy02.pop.ord.plex.bz 
-0.0.0.0 cpms.spop10.ams.plex.bz 
-0.0.0.0 meta-db-worker02.pop.ric.plex.bz 
-0.0.0.0 meta.plex.bz 
-0.0.0.0 tvthemes.plexapp.com.cdn.cloudflare.net 
-0.0.0.0 tvthemes.plexapp.com 
-0.0.0.0 106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services 
-0.0.0.0 meta.plex.tv 
-0.0.0.0 cpms35.spop10.ams.plex.bz 
-0.0.0.0 proxy.plex.tv 
-0.0.0.0 metrics.plex.tv 
-0.0.0.0 pubsub.plex.tv 
-0.0.0.0 status.plex.tv
-0.0.0.0 www.plex.tv 
-0.0.0.0 node.plexapp.com 
-0.0.0.0 nine.plugins.plexapp.com 
-0.0.0.0 staging.plex.tv 
-0.0.0.0 app.plex.tv 
-0.0.0.0 o1.email.plex.tv  
-0.0.0.0 o2.sg0.plex.tv 
-0.0.0.0 dashboard.plex.tv
+plex.tv 
+tvdb2.plex.tv 
+pubsub.plex.bz 
+proxy.plex.bz 
+proxy02.pop.ord.plex.bz 
+cpms.spop10.ams.plex.bz 
+meta-db-worker02.pop.ric.plex.bz 
+meta.plex.bz 
+tvthemes.plexapp.com.cdn.cloudflare.net 
+tvthemes.plexapp.com 
+106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services 
+meta.plex.tv 
+cpms35.spop10.ams.plex.bz 
+proxy.plex.tv 
+metrics.plex.tv 
+pubsub.plex.tv 
+status.plex.tv
+www.plex.tv 
+node.plexapp.com 
+nine.plugins.plexapp.com 
+staging.plex.tv 
+app.plex.tv 
+o1.email.plex.tv  
+o2.sg0.plex.tv 
+dashboard.plex.tv
 #Custom Login Pictures
-0.0.0.0 gravatar.com
+gravatar.com
 #TV Series Metadata
-0.0.0.0 thetvdb.com
+thetvdb.com
 #Movie Metadata
-0.0.0.0 themoviedb.com
+themoviedb.com
 #iHeart radio/Plex Podcast
-0.0.0.0 chtbl.com
+chtbl.com
 
 #Sonarr
-0.0.0.0 services.sonarr.tv 
-0.0.0.0 skyhook.sonarr.tv 
-0.0.0.0 download.sonarr.tv 
-0.0.0.0 apt.sonarr.tv 
-0.0.0.0 forums.sonarr.tv
+services.sonarr.tv 
+skyhook.sonarr.tv 
+download.sonarr.tv 
+apt.sonarr.tv 
+forums.sonarr.tv
 
 #Placehold.it (Image placeholders often used during web design.)
-0.0.0.0 placehold.it 
-0.0.0.0 placeholdit.imgix.net
+placehold.it 
+placeholdit.imgix.net
 
 #Dropbox
-0.0.0.0 dl.dropboxusercontent.com 
-0.0.0.0 ns1.dropbox.com 
-0.0.0.0 ns2.dropbox.com
+dl.dropboxusercontent.com 
+ns1.dropbox.com 
+ns2.dropbox.com
 
 #Fox News
-0.0.0.0 widget-cdn.rpxnow.com
+widget-cdn.rpxnow.com
 
 #Images on Marketwatch.com
-0.0.0.0 s.marketwatch.com
+s.marketwatch.com
 
 #GoDaddy webmail buttons
-0.0.0.0 imagesak.secureserver.net
+imagesak.secureserver.net
 
 #WatchESPN
-0.0.0.0 fpdownload.adobe.com 
-0.0.0.0 entitlement.auth.adobe.com 
-0.0.0.0 livepassdl.conviva.com
+fpdownload.adobe.com 
+entitlement.auth.adobe.com 
+livepassdl.conviva.com
 
 #NVIDIA GeForce Experience
-0.0.0.0 gfwsl.geforce.com
+gfwsl.geforce.com
 
 #Videos not playing in times.com and nydailynews.com
-0.0.0.0 delivery.vidible.tv 
-0.0.0.0 img.vidible.tv 
-0.0.0.0 videos.vidible.tv 
-0.0.0.0 edge.api.brightcove.com 
-0.0.0.0 cdn.vidible.tv
+delivery.vidible.tv 
+img.vidible.tv 
+videos.vidible.tv 
+edge.api.brightcove.com 
+cdn.vidible.tv
 
 #Videos not playing on weather.com
-0.0.0.0 v.w-x.co
+v.w-x.co
 
 #Moto phones OS updates
-0.0.0.0 appspot-preview.l.google.com
+appspot-preview.l.google.com
 
 #Grand Theft Auto V Online PC
-0.0.0.0 prod.telemetry.ros.rockstargames.com
+prod.telemetry.ros.rockstargames.com
 
 #Chevrolet
-0.0.0.0 chevrolet.com
+chevrolet.com
 
 #Epic Games Store
-0.0.0.0 tracking.epicgames.com
+tracking.epicgames.com
 
 #Origin (Savegame-Sync)
-0.0.0.0 cloudsync-prod.s3.amazonaws.com
+cloudsync-prod.s3.amazonaws.com
 
 #Red Hat Online Learning (subscription required)
-0.0.0.0 79423.analytics.edgekey.net
+79423.analytics.edgekey.net
 
 #Lowe's Checkout
-0.0.0.0 assets.adobedtm.com
+assets.adobedtm.com
 
 #Home Depot Checkout
-0.0.0.0 nexus.ensighten.com
+nexus.ensighten.com
 
 #Mozilla Firefox Tracking Protection
-0.0.0.0 tracking-protection.cdn.mozilla.net
+tracking-protection.cdn.mozilla.net
 
 #Playstation 5 "Recently Played Games" and Trophies
-0.0.0.0 telemetry-console.api.playstation.com
+telemetry-console.api.playstation.com
 
 #Cannon Printers
-0.0.0.0 gdlp01.c-wss.com
+gdlp01.c-wss.com
 
 #Reddit
-0.0.0.0 styles.redditmedia.com
-0.0.0.0 www.redditstatic.com
-0.0.0.0 reddit.map.fastly.net
-0.0.0.0 www.redditmedia.com
-0.0.0.0 reddit-uploaded-media.s3-accelerate.amazonaws.com
-0.0.0.0 thumbs.redditmedia.com
-0.0.0.0 redd.it
+styles.redditmedia.com
+www.redditstatic.com
+reddit.map.fastly.net
+www.redditmedia.com
+reddit-uploaded-media.s3-accelerate.amazonaws.com
+thumbs.redditmedia.com
+redd.it
 |reddit.com
 
 #Tracking Packages sent with DPD
-0.0.0.0 tracking.dpd.de
+tracking.dpd.de
 
 #WhatsApp
-0.0.0.0 wa.me
-0.0.0.0 www/wa/me
+wa.me
+www/wa/me
 
 #Signal
-0.0.0.0 ud-chat.signal.org
-0.0.0.0 chat.signal.org
-0.0.0.0 storage.signal.org
-0.0.0.0 signal.org
-0.0.0.0 www.signal.org
-0.0.0.0 updates2.signal.org
-0.0.0.0 textsecure-service-whispersystems.org
-0.0.0.0 giphy-proxy-production.whispersystems.org
-0.0.0.0 cdn.signal.org
-0.0.0.0 whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com
-0.0.0.0 d83eunklitikj.cloudfront.net
-0.0.0.0 souqcdn.com
-0.0.0.0 cms.souqcdn.com
-0.0.0.0 api.directory.signal.org
-0.0.0.0 contentproxy.signal.org
-0.0.0.0 turn1.whispersystems.org
+ud-chat.signal.org
+chat.signal.org
+storage.signal.org
+signal.org
+www.signal.org
+updates2.signal.org
+textsecure-service-whispersystems.org
+giphy-proxy-production.whispersystems.org
+cdn.signal.org
+whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com
+d83eunklitikj.cloudfront.net
+souqcdn.com
+cms.souqcdn.com
+api.directory.signal.org
+contentproxy.signal.org
+turn1.whispersystems.org
 
 #X/Twitter
-0.0.0.0 twitter.com
-0.0.0.0 upload.twitter.com
-0.0.0.0 api.twitter.com
-0.0.0.0 mobile.twitter.com
-0.0.0.0 twimg.com
+twitter.com
+upload.twitter.com
+api.twitter.com
+mobile.twitter.com
+twimg.com
 
 
 #Banks
 
 #TBS Mobile
-0.0.0.0 h-sdk.online-metrix.net
-0.0.0.0 check2.tsb.co.uk
+h-sdk.online-metrix.net
+check2.tsb.co.uk
 
 #Citizen's Bank
-0.0.0.0 p11.techlab-cdn.com
+p11.techlab-cdn.com
 
 #OLA Money
-0.0.0.0 logs.juspay.in
+logs.juspay.in
 
 
 #Resturants / Rewards
 
 #Burger King
-0.0.0.0 appboy-images.com
-0.0.0.0 rest.iad-03.braze.com
+appboy-images.com
+rest.iad-03.braze.com
 
 #Punchh (Farmer Boys, El Pollo Loco, Capriotti's, etc.)
-0.0.0.0 mobileandroidapi.punchh.com
+mobileandroidapi.punchh.com
 
 #Rumble
-0.0.0.0 rmbl.ws
+rmbl.ws
 
 
 #Dutch / The Netherlands websites
 
 #nu.nl (enable videos, tvgids et cetera)
-0.0.0.0 cds.s5x3j6q5.hwcdn.net
+cds.s5x3j6q5.hwcdn.net
 
 
 #Swedish streaming services
 
 #svtplay (enable continuing where you left off)
-0.0.0.0 analytics.svt.se
+analytics.svt.se
